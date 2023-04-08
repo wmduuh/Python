@@ -178,6 +178,7 @@ def delete(contact):
         print('Deletado!')
     except:
         print('  >> Algo deu errado. Contato não encontrado!\n')
+        
 # Exibição da mensagem de saída
 def exiting():
     print('Finalizando Agenda...')
